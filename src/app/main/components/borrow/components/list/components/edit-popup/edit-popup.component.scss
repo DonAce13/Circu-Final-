@@ -11,14 +11,19 @@ hr {
     border-width: 8px;
 }
 
+.header {
+    background-color: #31A463;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid black;
+}
+
 .title {
-    color: #31A463;
+    color: #ffffff;
     font-family: 'poppins', sans-serif;
     font-weight: 700;
-    font-size: 100px;
-    margin-top: 80px;
+    font-size: 80px;
     margin-left: 35px;
-    margin-bottom: 60px;
 }
 
 // input[type=date]:invalid::-webkit-datetime-edit {
