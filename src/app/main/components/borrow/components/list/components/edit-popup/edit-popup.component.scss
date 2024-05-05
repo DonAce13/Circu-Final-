@@ -3,6 +3,7 @@
 
 body {
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 hr {
@@ -15,7 +16,7 @@ hr {
     background-color: #31A463;
     padding-top: 40px;
     padding-bottom: 30px;
-    border-bottom: 5px solid black;
+    border-bottom: 2.5px solid black;
 }
 
 .title {
@@ -139,19 +140,18 @@ hr {
 }
 
 .buttons {
-    margin-top: 60px;
-    padding-left: 63%;
+    margin-top: 100px;
+    padding-left: 63.5%;
 }
 
 .add {
-    background-color: #008000;
+    background-color: #31A463;
     margin-right: 10px;
     justify-content: center;
     position: relative;
     padding: .1rem;
     width: 50%;
     border: none;
-    border-radius: 10px;
     font-family: 'poppins',sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -159,11 +159,12 @@ hr {
     font-size: 22px;
     top: -20px;
     text-decoration: none;
-
+    border-radius: 5px;
     margin-left: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .reserve {
@@ -174,7 +175,6 @@ hr {
     padding: .1rem;
     width: 50%;
     border: none;
-    border-radius: 10px;
     font-family: 'poppins',sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -182,8 +182,8 @@ hr {
     font-size: 22px;
     top: -20px;
     text-decoration: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .close {
@@ -194,7 +194,6 @@ hr {
     padding: .1rem;
     width: 50%;
     border: none;
-    border-radius: 10px;
     font-family: 'poppins',sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -204,6 +203,9 @@ hr {
     text-decoration: none;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
